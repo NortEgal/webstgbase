@@ -1,0 +1,25 @@
+@font-face {
+  font-family: RussellSquare;
+  src: url('../fonts/RussellSquare.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1.1vw;
+	text-align: center;
+	font-family: RussellSquare;
+}
+
+body {
+	background: #000000;
+	background-image: url("../img/bg.png");
+	background-repeat: repeat;
+	overflow: hidden;
+}
+
+canvas {
+	margin-left: auto;
+	margin-right: auto;
+}
